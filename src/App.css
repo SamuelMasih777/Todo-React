@@ -1,0 +1,14 @@
+/* App.css */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure that the body takes at least the height of the viewport */
+    margin: 0;
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Allow the root element to grow and occupy the remaining vertical space */
+  }
+  
